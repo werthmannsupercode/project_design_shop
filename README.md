@@ -13,7 +13,7 @@ und eine
 
 📱 Mobileversion
 
-Verwendete Technologien:
+<b>Verwendete Technologien:</b>
 
 -HTML
 -CSS
