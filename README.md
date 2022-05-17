@@ -20,4 +20,7 @@ und eine
 -JS
 
 Und hier ist das Ergebnis🚀:
+
 https://werthmannsupercode.github.io/project_design_shop/
+
+🍀 Viel Freude damit 🍀
