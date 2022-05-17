@@ -2,7 +2,7 @@
 
 🌸 Willkommen in meinem ersten Online-Shop🥳 🌸
 
-Und was es dort für wunderschöne Sachen gibt... Gleich vorbeischauen und einkaufen. 👜
+Und was es dort für wunderschöne Sachen gibt... Gleich vorbeischauen und einkaufen. 👜 <br>
 Aber Achtung, die Preise sind nichts für schwache Nerven. Schönheit hat eben ihren Preis 🥲.
 
 Es gibt eine 
