@@ -95,7 +95,6 @@ nav div p {
 main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 100vh 80vh 80vh 100vh 80vh 80vh 100vh 80vh 80vh 100vh 80vh 80vh 100vh 80vh;
     gap: 20px;
 }
 
@@ -125,107 +124,15 @@ main figure figcaption p {
 
 main figure:nth-of-type(1) {
     grid-column: 1/4;
-    grid-row: 1/2;
 }
 
-main figure:nth-of-type(2) {
-    grid-column: 1/2;
-    grid-row: 2/3;
-}
-
-main figure:nth-of-type(3) {
-    grid-column: 2/3;
-    grid-row: 2/3;
-}
-
-main figure:nth-of-type(4) {
-    grid-column: 3/4;
-    grid-row: 2/3;
-}
-
-main figure:nth-of-type(5) {
-    grid-column: 1/2;
-    grid-row: 3/4;
-}
-
-main figure:nth-of-type(6) {
-    grid-column: 2/3;
-    grid-row: 3/4;
-}
-
-main figure:nth-of-type(7) {
-    grid-column: 3/4;
-    grid-row: 3/4;
-}
 
 main figure:nth-of-type(8) {
     grid-column: 1/4;
-    grid-row: 4/5;
-}
-
-main figure:nth-of-type(9) {
-    grid-column: 1/2;
-    grid-row: 5/6;
-}
-
-main figure:nth-of-type(10) {
-    grid-column: 2/3;
-    grid-row: 5/6;
-}
-
-main figure:nth-of-type(11) {
-    grid-column: 3/4;
-    grid-row: 5/6;
-}
-
-main figure:nth-of-type(12) {
-    grid-column: 1/2;
-    grid-row: 6/7;
-}
-
-main figure:nth-of-type(13) {
-    grid-column: 2/3;
-    grid-row: 6/7;
-}
-
-main figure:nth-of-type(14) {
-    grid-column: 3/4;
-    grid-row: 6/7;
 }
 
 main figure:nth-of-type(15) {
     grid-column: 1/4;
-    grid-row: 7/8;
-}
-
-main figure:nth-of-type(16) {
-    grid-column: 1/2;
-    grid-row: 8/9;
-}
-
-main figure:nth-of-type(17) {
-    grid-column: 2/3;
-    grid-row: 8/9;
-}
-
-main figure:nth-of-type(18) {
-    grid-column: 3/4;
-    grid-row: 8/9;
-}
-
-main figure:nth-of-type(19) {
-    grid-column: 1/2;
-    grid-row: 9/10;
-}
-
-main figure:nth-of-type(20) {
-    grid-column: 2/3;
-    grid-row: 9/10;
-}
-
-main figure:nth-of-type(21) {
-    grid-column: 3/4;
-    grid-row: 9/10;
 }
 
 main figure:nth-of-type(22) {
@@ -233,54 +140,9 @@ main figure:nth-of-type(22) {
     grid-row: 10/11;
 }
 
-main figure:nth-of-type(23) {
-    grid-column: 1/2;
-    grid-row: 11/12;
-}
-
-main figure:nth-of-type(24) {
-    grid-column: 2/3;
-    grid-row: 11/12;
-}
-
-main figure:nth-of-type(25) {
-    grid-column: 3/4;
-    grid-row: 11/12;
-}
-
-main figure:nth-of-type(26) {
-    grid-column: 1/2;
-    grid-row: 12/13;
-}
-
-main figure:nth-of-type(27) {
-    grid-column: 2/3;
-    grid-row: 12/13;
-}
-
-main figure:nth-of-type(28) {
-    grid-column: 3/4;
-    grid-row: 12/13;
-}
-
 main figure:nth-of-type(29) {
     grid-column: 1/4;
     grid-row: 13/14;
-}
-
-main figure:nth-of-type(30) {
-    grid-column: 1/2;
-    grid-row: 14/15;
-}
-
-main figure:nth-of-type(31) {
-    grid-column: 2/3;
-    grid-row: 14/15;
-}
-
-main figure:nth-of-type(32) {
-    grid-column: 3/4;
-    grid-row: 14/15;
 }
 
 /* ==========================================================================
@@ -397,179 +259,11 @@ footer span {
         cursor: pointer;
     }
 
-    /* MAIN STYLES */
-
-    main {
-        display: grid;
-        grid-template-columns: 100%;
-        grid-template-rows: repeat(32, 80vh);
-    }
-
-    main figure:nth-of-type(1) {
-        grid-column: 1/2;
-        grid-row: 1/2;
-    }
-
-    main figure:nth-of-type(2) {
-        grid-column: 1/2;
-        grid-row: 2/3;
-    }
-
-    main figure:nth-of-type(3) {
-        grid-column: 1/2;
-        grid-row: 3/4;
-    }
-
-    main figure:nth-of-type(4) {
-        grid-column: 1/2;
-        grid-row: 4/5;
-    }
-
-    main figure:nth-of-type(5) {
-        grid-column: 1/2;
-        grid-row: 5/6;
-    }
-
-    main figure:nth-of-type(6) {
-        grid-column: 1/2;
-        grid-row: 6/7;
-    }
-
-    main figure:nth-of-type(7) {
-        grid-column: 1/2;
-        grid-row: 7/8;
-    }
-
-    main figure:nth-of-type(8) {
-        grid-column: 1/2;
-        grid-row: 8/9;
-    }
-
-    main figure:nth-of-type(9) {
-        grid-column: 1/2;
-        grid-row: 9/10;
-    }
-
-    main figure:nth-of-type(10) {
-        grid-column: 1/2;
-        grid-row: 10/11;
-    }
-
-    main figure:nth-of-type(11) {
-        grid-column: 1/2;
-        grid-row: 11/12;
-    }
-
-    main figure:nth-of-type(12) {
-        grid-column: 1/2;
-        grid-row: 12/13;
-    }
-
-    main figure:nth-of-type(13) {
-        grid-column: 1/2;
-        grid-row: 13/14;
-    }
-
-    main figure:nth-of-type(14) {
-        grid-column: 1/2;
-        grid-row: 14/15;
-    }
-
-    main figure:nth-of-type(15) {
-        grid-column: 1/2;
-        grid-row: 15/16;
-    }
-
-    main figure:nth-of-type(16) {
-        grid-column: 1/2;
-        grid-row: 16/17;
-    }
-
-    main figure:nth-of-type(17) {
-        grid-column: 1/2;
-        grid-row: 17/18;
-    }
-
-    main figure:nth-of-type(18) {
-        grid-column: 1/2;
-        grid-row: 18/19;
-    }
-
-    main figure:nth-of-type(19) {
-        grid-column: 1/2;
-        grid-row: 19/20;
-    }
-
-    main figure:nth-of-type(20) {
-        grid-column: 1/2;
-        grid-row: 20/21;
-    }
-
-    main figure:nth-of-type(21) {
-        grid-column: 1/2;
-        grid-row: 21/22;
-    }
-
-    main figure:nth-of-type(22) {
-        grid-column: 1/2;
-        grid-row: 22/23;
-    }
-
-    main figure:nth-of-type(23) {
-        grid-column: 1/2;
-        grid-row: 23/24;
-    }
-
-    main figure:nth-of-type(24) {
-        grid-column: 1/2;
-        grid-row: 24/25;
-    }
-
-    main figure:nth-of-type(25) {
-        grid-column: 1/2;
-        grid-row: 25/26;
-    }
-
-    main figure:nth-of-type(26) {
-        grid-column: 1/2;
-        grid-row: 26/27;
-    }
-
-    main figure:nth-of-type(27) {
-        grid-column: 1/2;
-        grid-row: 27/28;
-    }
-
-    main figure:nth-of-type(28) {
-        grid-column: 1/2;
-        grid-row: 28/29;
-    }
-
-    main figure:nth-of-type(29) {
-        grid-column: 1/2;
-        grid-row: 29/30;
-    }
-
-    main figure:nth-of-type(30) {
-        grid-column: 1/2;
-        grid-row: 30/31;
-    }
-
-    main figure:nth-of-type(31) {
-        grid-column: 1/2;
-        grid-row: 31/32;
-    }
-
-    main figure:nth-of-type(32) {
-        grid-column: 1/2;
-        grid-row: 32/33;
-    }
-
     /* FOOTER STYLES */
 
     footer article {
         display: block;
-        padding-top: 0;
+        padding-top: 10vh;
     }
 
     footer article section {
